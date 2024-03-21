@@ -1,0 +1,70 @@
+  /* Create an accessible color palette using var()function */
+  /* https://www.w3schools.com/css/css3_variables.asp */
+  
+
+  
+  form {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    width:70%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: blue;
+    background: whitesmoke;
+    border: 3px solid #B76E79;
+    font-family: "Varela", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+   
+
+  .radio {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    /* background: #575294; */
+    color: black;
+  }
+
+  #name {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: medium;
+    background: lightgray;
+    border: 1px solid #B76E79;
+    color: black;
+  }
+
+  #message {
+    width: 100%;
+    padding: 30px;
+    resize: vertical;
+    grid-template-rows: 2;
+  }
+
+  input,
+  textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
